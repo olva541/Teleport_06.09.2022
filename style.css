@@ -1,0 +1,142 @@
+body
+{
+    background: linear-gradient(117.42deg,
+        #1E212D 0%,
+        #21273D 0.01%,
+        #1D202E 91.49%);
+        
+}
+.wraper
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    margin-left: 0px;
+    min-height: 700px;
+    /* background-color: #FD3162; */
+}
+.left-menu
+{
+    /* position: absolute; */
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+    width: 354px;
+    
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: linear-gradient(176.05deg, rgba(102, 117, 174, 0.1) 1.92%, rgba(43, 62, 105, 0.1) 90.46%);
+    border-radius: 0px;
+    
+}
+
+
+
+.left-menu .wraper-menu
+{
+    width: 291px;
+}
+.left-menu .wraper-menu .space
+{
+    display: inline-flex;
+    align-items: flex-end;
+}
+.left-menu img
+{
+    margin-left: 13px;
+    margin-top: 41px;
+    width: 186px;
+}
+.left-menu .buttons
+{
+    margin-top: 52px;
+    color: #fff;
+}
+.left-menu .buttons .btn
+{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 12px;
+
+    width: 279px;
+    height: 56px;
+
+    border-radius: 4px;
+    font-size: 16px;
+}
+.left-menu .buttons .btn img
+{
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    width: 24px;
+    color: #fff;
+}
+.left-menu .buttons .btn p
+{
+    margin-left: 16px;
+}
+.left-menu .buttons .t-button .btn:first-child
+{
+    background: #0057FF;
+}
+.left-menu .buttons .btn .bal
+{
+    margin-left: 9px;
+    width: 75px;
+    height: 34px;
+    
+    background: rgba(253, 49, 98, 0.1);
+    color: #FD3162;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-menu .buttons .btn .bal p
+{
+    margin-left: 0px;
+}
+.left-menu .buttons .d-button
+{
+    position: absolute;
+    bottom: 36px;
+}
+.left-menu .buttons .btn:last-child
+{
+    display: flex;
+    
+}
+.left-menu .buttons .btn .btspace
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 239px;
+}
+.left-menu .buttons .btn .theme
+{
+    width: 60px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    
+    background: rgba(241, 241, 241, 0.06);
+    border-radius: 20px;
+}
+.left-menu .buttons .btn .theme .elips
+{
+    width: 20px;
+    height: 20px;
+
+    background: #0057FF;
+    border-radius: 50%;
+    margin-left: 32px;
+}
